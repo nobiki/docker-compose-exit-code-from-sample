@@ -2,8 +2,8 @@ version: "3"
 
 services:
 
-  hoge:
-    image: hoge:latest
+  failure:
+    image: failure:latest
     build:
       context: .
       dockerfile: ./Dockerfile
